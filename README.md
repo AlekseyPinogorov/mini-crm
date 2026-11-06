@@ -4,6 +4,8 @@
 
 Стек: React + TypeScript (Vite), MUI, React Router, Supabase (Postgres, Auth, REST). Все правила доступа и переходы статусов проверяет база данных (RLS, права на колонки, функции и триггеры), а не интерфейс.
 
+Демо: https://mini-crm-objects-blush.vercel.app (доступы переданы вместе с заданием).
+
 Проект сделан с помощью [Claude Code](https://claude.com/claude-code).
 
 - [docs/for-manager.md](docs/for-manager.md) — как устроена система, без технических терминов.
@@ -22,7 +24,7 @@ tests/security/        атаки на базу через supabase-js с ток
 
 ## Локальный запуск
 
-Нужны Node.js 20+ и Docker.
+Нужны Node.js 22.22+ и Docker.
 
 ```bash
 npm install
